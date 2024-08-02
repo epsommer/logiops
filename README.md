@@ -32,10 +32,6 @@ Using Logiops, a versatile Linux daemon for configuring Logitech devices, these 
   - **Button CID 0xc3**: Configured for directional gestures with different actions such as cycling DPI, toggling SmartShift, and sending keypresses for `KEY_UP` and `KEY_DOWN`.
   - **Button CID 0xc4**: Configured to send a `KEY_A` keypress.
 
-### MX Master Keys Keyboard
-
-- **Keys Configuration**: Customize keys to send specific keypresses, launch applications, or perform complex macros.
-
 ## Installation
 
 1. **Install Logiops**:
