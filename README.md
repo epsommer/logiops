@@ -47,3 +47,58 @@ Using Logiops, a versatile Linux daemon for configuring Logitech devices, these 
    cmake ..
    make
    sudo make install
+
+## Installation
+
+2. **Clone This Repository**:
+    ```sh
+    git clone https://github.com/epsommer/logiops.git ~/.config/logiops
+    ```
+
+3. **Set Up Configuration File**:
+    Ensure the `logid.cfg` file is in the `~/.config/logiops` directory.
+
+4. **Override Systemd Service**:
+    Create a drop-in file to specify the configuration directory:
+    ```sh
+    sudo mkdir -p /etc/systemd/system/logid.service.d
+    echo -e "[Service]\nExecStart=\nExecStart=/usr/bin/logid -c /home/epsommer/.config/logiops/logid.cfg" | sudo tee /etc/systemd/system/logid.service.d/override.conf
+    ```
+
+5. **Reload Systemd and Start the Service**:
+    ```sh
+    sudo systemctl daemon-reload
+    sudo systemctl enable --now logid
+    ```
+
+## Customization
+
+- **Modify Configuration**: Edit `~/.config/logiops/logid.cfg` to customize settings according to your preferences.
+- **Apply Changes**: Restart the Logiops service to apply changes.
+    ```sh
+    sudo systemctl restart logid
+    ```
+
+## Troubleshooting
+
+- **Check Service Status**:
+    ```sh
+    sudo systemctl status logid
+    ```
+
+- **View Logs**:
+    ```sh
+    journalctl -u logid
+    ```
+
+## Contribution
+
+Contributions are welcome! Feel free to fork the repository, make modifications, and submit pull requests.
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+## Contact
+
+For any questions or support, please open an issue on the GitHub repository.
