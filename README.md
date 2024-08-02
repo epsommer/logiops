@@ -48,8 +48,6 @@ Using Logiops, a versatile Linux daemon for configuring Logitech devices, these 
    make
    sudo make install
 
-## Installation
-
 2. **Clone This Repository**:
     ```sh
     git clone https://github.com/epsommer/logiops.git ~/.config/logiops
