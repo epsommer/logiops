@@ -1,4 +1,4 @@
-# Logitech MX Master 3S and MX Master Keys Configuration for Linux
+# Logitech MX Master 3S Configuration for Linux
 
 This repository contains configuration settings for Logitech's MX Master 3S mouse tailored for Linux operating systems. 
 
