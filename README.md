@@ -4,6 +4,10 @@ This repository contains configuration settings for Logitech's MX Master 3S mous
 
 Using Logiops, a versatile Linux daemon for configuring Logitech devices, these configurations allow you to customize the functionality and behavior of your Logitech peripherals to enhance your productivity and user experience.
 
+## Dependencies and Acknowledgments
+
+This project relies on [PixlOne/logiops](https://github.com/PixlOne/logiops) for configuring Logitech devices on Linux. Please refer to their repository for more details and advanced configurations.
+
 ## Features
 
 ### MX Master 3S Mouse
