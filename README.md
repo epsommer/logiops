@@ -90,7 +90,7 @@ This project relies on [PixlOne/logiops](https://github.com/PixlOne/logiops) for
     ```
     
 ## ToDo
-- [ ] Implement button remapping for MX Keys S Right Alt/Opt key
+- [ ] Implement button remapping for 'MX Keys S' right Alt/Opt key
 
 ## Contribution
 
