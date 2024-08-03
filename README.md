@@ -89,7 +89,7 @@ This project relies on [PixlOne/logiops](https://github.com/PixlOne/logiops) for
     journalctl -u logid
     ```
     
-## ToDo
+## To Do
 - [ ] Implement button remapping for `MX Keys S` right alt / opt key
 
 ## Contribution
