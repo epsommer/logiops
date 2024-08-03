@@ -90,8 +90,7 @@ This project relies on [PixlOne/logiops](https://github.com/PixlOne/logiops) for
     ```
     
 ## ToDo
-- [ ] Add support for Logitech MX Keys S
-- [ ] Implement button remappings for MX Keys S
+- [ ] Implement button remapping for MX Keys S Right Alt/Opt key
 
 ## Contribution
 
