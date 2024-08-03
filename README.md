@@ -88,6 +88,10 @@ This project relies on [PixlOne/logiops](https://github.com/PixlOne/logiops) for
     ```sh
     journalctl -u logid
     ```
+    
+## TODO
+- [ ] Add support for Logitech MX Keys S
+- [ ] Implement button remappings for MX Keys S
 
 ## Contribution
 
